@@ -48,25 +48,25 @@ const MainSwiper = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <MainSlide img={"/main_1.jpg"} />
+          <MainSlide img={"main1.jpg"} />
         </SwiperSlide>
         <SwiperSlide>
-          <MainSlide img={"/main_2.jpg"} />
+          <MainSlide img={"main2.jpg"} />
         </SwiperSlide>
         <SwiperSlide>
-          <MainSlide img={"/main_3.jpg"} />
+          <MainSlide img={"main3.jpg"} />
         </SwiperSlide>
         <SwiperSlide>
-          <MainSlide img={"/main_4.jpg"} />
+          <MainSlide img={"main4.jpg"} />
         </SwiperSlide>
         <SwiperSlide>
-          <MainSlide img={"/main_5.jpg"} />
+          <MainSlide img={"main5.jpg"} />
         </SwiperSlide>
         <SwiperSlide>
-          <MainSlide img={"/main_6.jpg"} />
+          <MainSlide img={"main6.jpg"} />
         </SwiperSlide>
         <SwiperSlide>
-          <MainSlide img={"/main_7.jpg"} />
+          <MainSlide img={"main7.jpg"} />
         </SwiperSlide>
       </Swiper>
       <div

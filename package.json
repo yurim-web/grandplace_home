@@ -2,6 +2,10 @@
   "name": "groundplace",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://yurim-web.github.io/groundplace_clone",
+
+  
+
   "dependencies": {
     "cra-template": "1.2.0",
     "gsap": "^3.12.5",
