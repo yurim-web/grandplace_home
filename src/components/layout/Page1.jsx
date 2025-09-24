@@ -37,7 +37,7 @@ const Page1 = () => {
           <p>It's a place where we are happy</p>
         </div>
         <div className="box">
-          <img src="page_1_1.jpg" alt="" />
+          <img src={`${process.env.PUBLIC_URL}/page_1_1.jpg`} alt="" />
         </div>
         <img
           style={{
@@ -46,7 +46,7 @@ const Page1 = () => {
             marginTop: "500px",
             width: "350px",
           }}
-          src="leaf2.png"
+          src={`${process.env.PUBLIC_URL}/leaf2.png`}
           alt="leaf"
         />
         <div style={{ display: "flex", width: "200px", marginTop: "30%" }}>
@@ -58,7 +58,7 @@ const Page1 = () => {
               position: "relative",
               zIndex: 1,
             }}
-            src="page_1_2.jpg"
+            src={`${process.env.PUBLIC_URL}/page_1_2.jpg`}
             alt="img1"
           />
           <img
@@ -70,7 +70,7 @@ const Page1 = () => {
               position: "absolute",
               left: "64%",
             }}
-            src="page_1_3.jpg"
+            src={`${process.env.PUBLIC_URL}/page_1_3.jpg`}
             alt="img2"
           />
         </div>

@@ -45,7 +45,7 @@ const Page2 = () => {
             </h1>
             <p>It's an emotional interior and a comfortable space.</p>
             <p>We prepared a private space for only one team.</p>
-            <img src="page_2_1.jpg" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/page_2_1.jpg`} alt="" />
           </div>
         </div>
 
@@ -70,10 +70,9 @@ const Page2 = () => {
           }}
         >
           <div>
-            <img src="page_2_2.jpg" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/page_2_2.jpg`} alt="" />
             <h3
               style={{
-                color: "474f6f",
                 fontFamily: "NotoSerif",
                 fontSize: "25px",
                 color: "#474f6f",
@@ -85,10 +84,9 @@ const Page2 = () => {
             <p>대형 실내 수영장(8m)과 외부 자쿠지가 있는 독채 풀빌라</p>
           </div>
           <div>
-            <img src="page_2_3.jpg" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/page_2_3.jpg`} alt="" />
             <h3
               style={{
-                color: "474f6f",
                 fontFamily: "NotoSerif",
                 fontSize: "25px",
                 color: "#474f6f",

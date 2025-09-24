@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 const Page3 = () => {
   // 이미지 상태를 관리
-  const [image1, setImage1] = useState("special1_img1.jpg");
-  const [image2, setImage2] = useState("special1_img2.jpg");
-  const [image3, setImage3] = useState("special1_img3.jpg");
+  const [image1, setImage1] = useState(`${process.env.PUBLIC_URL}/special1_img1.jpg`);
+  const [image2, setImage2] = useState(`${process.env.PUBLIC_URL}/special1_img2.jpg`);
+  const [image3, setImage3] = useState(`${process.env.PUBLIC_URL}/special1_img3.jpg`);
 
   // 스타일 상태를 관리 (마우스 오버 시 스타일 변경)
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -13,25 +13,25 @@ const Page3 = () => {
   const handleMouseEnter = (imageIndex) => {
     setHoveredIndex(imageIndex);
     if (imageIndex === 0) {
-      setImage1("special1_img1.jpg");
-      setImage2("special1_img2.jpg");
-      setImage3("special1_img3.jpg");
+      setImage1(`${process.env.PUBLIC_URL}/special1_img1.jpg`);
+      setImage2(`${process.env.PUBLIC_URL}/special1_img2.jpg`);
+      setImage3(`${process.env.PUBLIC_URL}/special1_img3.jpg`);
     } else if (imageIndex === 1) {
-      setImage1("special2_img1.jpg");
-      setImage2("special2_img2.jpg");
-      setImage3("special2_img3.jpg");
+      setImage1(`${process.env.PUBLIC_URL}/special2_img1.jpg`);
+      setImage2(`${process.env.PUBLIC_URL}/special2_img2.jpg`);
+      setImage3(`${process.env.PUBLIC_URL}/special2_img3.jpg`);
     } else if (imageIndex === 2) {
-      setImage1("special3_img1.jpg");
-      setImage2("special3_img2.jpg");
-      setImage3("special3_img3.jpg");
+      setImage1(`${process.env.PUBLIC_URL}/special3_img1.jpg`);
+      setImage2(`${process.env.PUBLIC_URL}/special3_img2.jpg`);
+      setImage3(`${process.env.PUBLIC_URL}/special3_img3.jpg`);
     } else if (imageIndex === 3) {
-      setImage1("special4_img1.jpg");
-      setImage2("special4_img2.jpg");
-      setImage3("special4_img3.jpg");
+      setImage1(`${process.env.PUBLIC_URL}/special4_img1.jpg`);
+      setImage2(`${process.env.PUBLIC_URL}/special4_img2.jpg`);
+      setImage3(`${process.env.PUBLIC_URL}/special4_img3.jpg`);
     } else if (imageIndex === 4) {
-      setImage1("special5_img1.jpg");
-      setImage2("special5_img2.jpg");
-      setImage3("special5_img3.jpg");
+      setImage1(`${process.env.PUBLIC_URL}/special5_img1.jpg`);
+      setImage2(`${process.env.PUBLIC_URL}/special5_img2.jpg`);
+      setImage3(`${process.env.PUBLIC_URL}/special5_img3.jpg`);
     }
   };
 
