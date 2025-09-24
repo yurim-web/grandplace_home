@@ -55,8 +55,8 @@ src/
 
 1. **저장소 클론**
    ```bash
-   git clone https://github.com/yurim-web/groundplace_clone.git
-   cd groundplace_clone
+   git clone https://github.com/yurim-web/grandplace_home.git
+   cd grandplace_home
    ```
 
 2. **의존성 설치**
@@ -114,16 +114,13 @@ npm test
 ## 🌐 배포
 
 이 프로젝트는 GitHub Pages를 통해 배포됩니다:
-- **라이브 사이트**: https://yurim-web.github.io/groundplace_clone
+- **라이브 사이트**: https://yurim-web.github.io/groundplace_clone_page/
 
-> **참고**: 이 프로젝트는 학습 목적으로 제작된 클론 코딩 프로젝트입니다.
+> **📝 참고**: 
+> - 원본 소스코드: [grandplace_home](https://github.com/yurim-web/grandplace_home) 저장소
+> - 배포용 빌드 파일: [groundplace_clone_page](https://github.com/yurim-web/groundplace_clone_page) 저장소
+> - 이 프로젝트는 학습 목적으로 제작된 클론 코딩 프로젝트입니다.
 
-## 📞 연락처
-
-- **전화**: 010-3366-8308
-- **주소**: 제주특별자치도 제주시 한경면 두모리 1931
-- **사업자번호**: 367-17-02082 (대표:전민수)
-- **농어촌민박번호**: 한경면 제733호
 
 ## 📄 라이선스
 
@@ -139,10 +136,6 @@ DESIGNED & PHOTO BY 언제나,디자인
 - CSS 스타일링과 레이아웃
 - 이미지 최적화 및 경로 관리
 
-## 🤝 기여하기
 
-이 프로젝트는 학습 목적의 클론 코딩이므로, 기여보다는 참고용으로 활용해주세요.
-
----
 
 **Groundplace Clone** - React와 GSAP을 활용한 웹 개발 학습 프로젝트 🚀
